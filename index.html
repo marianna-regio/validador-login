@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <form id="form">
+        <h1>
+            Crie sua conta
+        </h1>
+        <label for="name">Nome:</label>
+        <input type="text" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com">
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password">
+
+        <div id="info-content">
+           <h4> A senha deverá conter: </h4>
+            <p>
+                - Uma letra minúscula. <br>
+                - Uma letra maiúscula. <br>
+                - Um número <br>
+                - Um caractere especial. <br>
+                - Minimo 8 caracteres.
+            </p>
+        </div>
+        <button type="submit" id="button">Cadastrar</button>
+    </form>
+
+    
+</body>
+</html>
