@@ -1,4 +1,6 @@
-## Validador-login - Estudo sobre regex 
+## Validador de login 
+
+### Estudo sobre regex 
 
 Esta é uma aplicação JavaScript simples para o estudo de regex, que serve como um validador de login. 
 Utiliza HTML e CSS para criar a interface do usuário e JavaScript para lidar com as interações. 
